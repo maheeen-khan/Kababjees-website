@@ -1,15 +1,16 @@
-.container{
+.nav-inner{
     display: flex;
     justify-content: space-between;
 }
-.container-fluid{
-    background: transparent;
+.navbar1{
+    /* background: transparent; */
+    background-color: brown;
     color: white;
     border-bottom: 1px dashed white;
     padding-top: 3px;
     font-size: 14px;
 }
-.container-fluid a {
+.navbar1 a {
     color: rgb(216, 215, 215);
     text-decoration: none   ;
 }
@@ -46,3 +47,26 @@
         display: none;
     }
 }
+
+/* main portion */
+.sec-navbar{
+    background-color: blueviolet;
+    /* background:transparent; */
+    /* width: 100%; */
+    text-transform: uppercase;
+    margin: 3%;
+}
+.nav-item{
+    margin:4px;
+    border-bottom: 1px dashed white;
+    border-top: 1px dashed white;
+}
+.sec-navbar a{
+    color: white !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+img.logo{
+    height: 9vh;
+}
+
